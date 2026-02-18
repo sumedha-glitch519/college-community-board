@@ -80,3 +80,26 @@ main .welcome:hover {
 main .welcome p {
   line-height: 1.6;
 }
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding-left: 15px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown-menu li {
+  margin: 8px 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
