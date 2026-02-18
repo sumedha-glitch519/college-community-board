@@ -1,0 +1,18 @@
+.form-box {
+  background: linear-gradient(135deg, #dbeafe, #f5d0e6, #ddd6fe);
+  padding: 25px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0px 6px 12px #e9d5ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-top: 12px;
+  font-weight: bold;
+}
