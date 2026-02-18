@@ -1,6 +1,10 @@
 body {
-    background-color: #60bcb9;   /* light background */
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #c7e9f7, #e9d5f5, #d6ccf8);
+  min-height: 100vh;
 }
+
 h1 {
   font-size: 40px;
   color: rgb(2, 2, 29);
@@ -20,21 +24,16 @@ form .submit {
 }
 
 form {
-  margin-top: 20px;
+  
   border: 4px solid #324885;
   height: max-content;
   width: max-content;
   padding: 20px;
   border-radius: 10px;
 margin-left: 25%;
-margin-top: 5%;
+margin-top: 2%;
 }
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(180deg, #c7e9f7, #e9d5f5, #d6ccf8);
-  min-height: 100vh;
-}
+
 
 .reset {
   background-color: #f44336;
