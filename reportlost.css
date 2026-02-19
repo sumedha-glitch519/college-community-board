@@ -1,3 +1,41 @@
+/* Sidebar */
+nav {
+  width: 220px;
+  height: 100vh;
+  background: linear-gradient(180deg, #c7e9f7, #e9d5f5, #d6ccf8);
+  color: #2c2c54;
+  padding: 20px;
+}
+
+nav h2 {
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2c2c54;
+  display: block;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: linear-gradient(90deg, #dbeafe, #f3e8ff);
+}
+
+
+
 .form-box {
   background: linear-gradient(135deg, #dbeafe, #f5d0e6, #ddd6fe);
   padding: 25px;
