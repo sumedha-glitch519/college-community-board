@@ -1,3 +1,43 @@
 body {
    background: linear-gradient(270deg, #c7e9f7, #e9d5f5, #d6ccf8);
 }
+
+.create {
+  background-color: #324885;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  height: fit-content;
+  margin-top: 20px; 
+  margin-left: 30px;
+  transition: background-color 0.1s ;
+ 
+    /* prevents stretching */
+}
+
+.createnotice {
+  display: flex;
+  align-items: flex-start;        /* vertical alignment */
+  justify-content: space-between; /* text left, button right */
+  padding: 0 40px;
+}
+
+.createnotice h1 {
+  margin: 0;
+  font-size: xx-large;
+  color: rgb(2, 2, 29);
+}
+
+.create {
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create:hover {
+  background-color: #3248859a;
+}
