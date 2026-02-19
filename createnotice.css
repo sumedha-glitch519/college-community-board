@@ -1,0 +1,11 @@
+body {
+   background: linear-gradient(270deg, #c7e9f7, #e9d5f5, #d6ccf8);
+}
+.noticeform {
+  height: 80vh;
+  border: rgb(3, 3, 29) 4px solid;
+  padding: 5px;
+ max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
