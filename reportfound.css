@@ -55,7 +55,7 @@ nav a:hover {
   border-radius: 12px;
   width: 400px;
   box-shadow: 0px 6px 12px #e9d5ff;
-  margin-left:800px; /* offset by sidebar width + gap */
+  margin-left:400px; /* offset by sidebar width + gap */
 }
 
 .form-box form,
